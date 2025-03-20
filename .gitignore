@@ -6,6 +6,7 @@
 !README.md
 !rp-resize.bat
 !resize.py
+!pillow_checker.py
 !images/
 
 # Ignore everything inside the images folder
