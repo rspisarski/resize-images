@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# But not these files/folders
+!.gitignore
+!README.md
+!rp-resize.bat
+!resize.py
+!images/
+
+# Ignore everything inside the images folder
+images/*
+
+# Don't ignore .gitkeep to maintain the empty images folder
+!images/.gitkeep
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output folders created by the script
+resized_images_*/
